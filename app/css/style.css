@@ -1,0 +1,61 @@
+/* Client-specific Styles */
+/* line 3, ../scss/style.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 7, ../scss/style.scss */
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 15, ../scss/style.scss */
+.ExternalClass {
+  width: 100%;
+}
+/* line 18, ../scss/style.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 28, ../scss/style.scss */
+#backgroundTable {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  line-height: 100% !important;
+}
+
+/* End reset */
+/* line 37, ../scss/style.scss */
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 43, ../scss/style.scss */
+a img {
+  border: none;
+}
+
+/* line 47, ../scss/style.scss */
+table {
+  border-spacing: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+/* line 52, ../scss/style.scss */
+table,
+table td {
+  border-collapse: collapse;
+}
