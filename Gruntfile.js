@@ -157,7 +157,7 @@ module.exports = function (grunt) {
                 recipients: [
                     {
                         name: 'B2G TEST - <%= paths.email %>',
-                        email: 'dan.lang@blinds-2go.co.uk'
+                        email: 'daniel@blinds-2go.co.uk, daniel.chilvers1@gmail.com'
                     }
                 ]
             },
