@@ -18,7 +18,7 @@ module.exports = function (grunt) {
             //sources
             src: 'app',
             //main email file
-            email: 'index.html',
+            email: 'testplease.html',
             //enter here yout production domain
             distDomain: 'http://www.blinds-2go.co.uk/',
             //live folder location
