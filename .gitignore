@@ -2,6 +2,7 @@ node_modules
 .tmp
 .sass-cache
 bower_components
+.ftppass
 
 # Windows image file caches
 Thumbs.db

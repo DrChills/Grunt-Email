@@ -24,7 +24,7 @@ module.exports = function (grunt) {
             //live folder location
             livefolder: 'Danielchilvers.org.uk/newsletters',
             //this is the default development domain
-            devDomain: 'http://<%= connect.options.hostname %>:<%= connect.options.port %>/'
+            devDomain: 'http://<%= connect.options.hostname %>:<%= connect.options.port %>/',
         },
 
         /**
@@ -149,8 +149,8 @@ module.exports = function (grunt) {
                     options: {
                         service: 'Gmail',
                         auth: {
-                            user: 'psycleproductions@gmail.com',
-                            pass: 'chillyjenna1'
+                            user: 'b2gtestemail@gmail.com',
+                            pass: 'donkeycheeks'
                         }
                     }
                 },
@@ -170,8 +170,7 @@ module.exports = function (grunt) {
                 auth: {
                   host: '23.229.192.72',
                   port: 21,
-                  username: 'awayfromhome@da.com',
-                  password: 'donkeycheeks'
+                  authKey: 'key1'          
                 },
             src: '<%= paths.src %>',
             dest: '<%= paths.livefolder %>/<%= paths.email %>',
